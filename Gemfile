@@ -46,6 +46,9 @@ group :development do
 
   # Code linter for Ruby
   gem 'rubocop'
+  gem 'rubocop-performance'
+  gem 'rubocop-rails'
+  gem 'rubocop-rspec'
 
   # Allow to print db infos in tables
   gem 'table_print'

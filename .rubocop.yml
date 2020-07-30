@@ -1,0 +1,28 @@
+require:
+  - rubocop-rails
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+  Exclude:
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'script/**/*'
+    - 'bin/{rails,rake}'
+    - !ruby/regexp /old_and_unused\.rb$/
+
+  Metrics/LineLength:
+    Max: 150
+
+  Metrics/BlockLength:
+    Exclude:
+      - config/**/*
+      - spec/**/*
+
+  Lint/AmbiguousBlockAssociation:
+    Exclude:
+      - spec/**/*
+
+  Style/Documentation:
+    Enabled: false
