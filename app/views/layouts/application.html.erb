@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr" class="h-full">
   <head>
     <title>Bentosportfolio</title>
     <%= csrf_meta_tags %>
@@ -10,7 +10,13 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body class="p-10 antialiased text-gray-100 bg-black text-base">
+  <body class="antialiased text-gray-100 bg-black text-base flex flex-col h-full">
+    <!-- Navbar -->
+    <%= render "layouts/navbar" %>
+
     <%= yield %>
+
+    <!-- Footer -->
+    <%= render 'layouts/footer' %>
   </body>
 </html>

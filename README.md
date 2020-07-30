@@ -1,9 +1,11 @@
 # Bento's Portfolio :seedling:
 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-ruby.svg)](https://forthebadge.com)
+
 This is 
 
 ## Stack
-
+``
 - Ruby 2.7.0 :gem:
 - Ruby on Rails 6.0 :gem:
 
